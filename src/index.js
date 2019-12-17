@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
+import Footer from './components/Footer';
 import PersonalInfo from './components/PersonalInfo';
 import * as serviceWorker from './serviceWorker';
 
@@ -10,6 +11,7 @@ ReactDOM.render(
   <div>
   <h1>Below we have a component</h1>
   <PersonalInfo />
+  <Footer />
   </div>,
   document.getElementById('root')
   );
