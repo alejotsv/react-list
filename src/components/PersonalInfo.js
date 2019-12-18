@@ -2,10 +2,14 @@ import React from 'react';
 import '../App.css';
 
 const PersonalInfo = () => {
+
+  const firstName = 'Alejandro';
+  const lastName = 'Salas';
+
   return(
     <div>
       <main>
-      <h2>My name is Alejandro Salas</h2>
+      <h2>My name is {firstName} {lastName}</h2>
       <p>I am a full-stack Web Developer.</p>
       <p>These are my goals for 2020:</p>
       <ul>
