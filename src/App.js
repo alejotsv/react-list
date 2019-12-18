@@ -1,7 +1,7 @@
 import React from 'react';
-import NavBar from './NavBar';
-import PersonalInfo from './PersonalInfo';
-import Footer from './Footer';
+import NavBar from './components/NavBar';
+import PersonalInfo from './components/PersonalInfo';
+import Footer from './components/Footer';
 
 function App() {
   return (
