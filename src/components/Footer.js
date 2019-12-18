@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Footer(){
+const Footer = () => {
   return(
     <footer>
       <p>&copy; All rights reserved Alejandro Salas 2019</p>

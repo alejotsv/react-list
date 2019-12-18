@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 
-function PersonalInfo(){
+const PersonalInfo = () => {
   return(
     <div>
       <main>
