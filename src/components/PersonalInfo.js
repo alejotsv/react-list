@@ -4,6 +4,7 @@ import '../App.css';
 function PersonalInfo(){
   return(
     <div>
+      <main>
       <h2>My name is Alejandro Salas</h2>
       <p>I am a full-stack Web Developer.</p>
       <p>These are my goals for 2020:</p>
@@ -12,6 +13,7 @@ function PersonalInfo(){
         <li>Travel to Madrid</li>
         <li>Run a 10k</li>
       </ul>
+      </main>
     </div>
   );
 }
